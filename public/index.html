@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Service Name Here</title>
-</head>
-<body>
-  <div id="name-of-the-service"></div>
-  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-  <script src="http://localhost:3001/app.js"></script>
-  <script>
-    ReactDOM.render(
-      React.createElement(NameOfTheService),
-      document.getElementById('name-of-the-service')
-    );
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Service Name Here</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="name-of-the-service"></div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+
+    <script src="app.js"></script>
+    <script>
+      ReactDOM.render(
+        React.createElement(NameOfTheService),
+        document.getElementById("name-of-the-service")
+      );
+    </script>
+  </body>
 </html>
